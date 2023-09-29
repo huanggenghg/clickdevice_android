@@ -168,7 +168,7 @@ public class SmallWindowView extends LinearLayout {
                 }
 
                 actionUpX = (int) (event.getRawX()+getWidth()/2-event.getX());
-                actionUpY = (int) (event.getRawY()+getHeight()/2-event.getY());
+                actionUpY                 = (int) (event.getRawY()+getHeight()/2-event.getY());
 //                wmParams.y = (int) (y - screenHeight / 2);
                 wm.updateViewLayout(this, wmParams);
                 break;
